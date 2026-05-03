@@ -1,6 +1,6 @@
 Name:           ublue-os-just
 Vendor:         ublue-os
-Version:        0.54
+Version:        0.55
 Release:        1%{?dist}
 Summary:        ublue-os just integration
 License:        Apache-2.0
@@ -88,6 +88,10 @@ done
 %{fish_completions_dir}/ujust.fish
 
 %changelog
+* Sat May 02 2026 Jill Fiore <contact@lumaeris.com> - 0.55-1
+- Replace Bazzite-Arch with Steambox
+- Replace ublue-update with uupd
+
 * Wed Apr 29 2026 Jill Fiore <contact@lumaeris.com> - 0.54-1
 - Remove no longer used configure-nvidia and configure-nvidia-optimus
 
